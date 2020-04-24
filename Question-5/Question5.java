@@ -6,12 +6,13 @@ import java.util.HashSet;
  */
 public class Node 
 {
-     int val; 
+     int data; 
      Node next; 
   
-     public Node(int val)  
+     public Node(int d, Node n)  
      { 
-        this.val = val; 
+        this.data = d;
+        this.next = n;
      } 
     
     public void removeDuplicates(Node head)  
@@ -25,7 +26,7 @@ public class Node
         //Walk through the list
         while (current != null)  
         { 
-            int curval = current.val; 
+            int curval = current.data; 
               
              // If current value is seen before 
             if (values.contains(curval)) 
