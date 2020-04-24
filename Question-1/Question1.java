@@ -7,7 +7,7 @@ public void replace_all_spaces(String input, int size)
 }
 
 
-char[] replaceSpaces(char[] str) 
+public char[] replaceSpaces(char[] str) 
 { 
         // count spaces to find current length of the string
         int space_count = 0, i = 0; 
