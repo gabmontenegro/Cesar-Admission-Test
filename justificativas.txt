@@ -1,0 +1,19 @@
+Questão 1:
+
+Implementei utilizando 2 abordagens:
+1 - Utilizando as funções nativas do Java String, para facilitar a fluidez e a manipulação de Strings.
+2 - Utilizando conforme requisitado, operações inplace com Strings transformadas para CharArray de modo
+    a facilitar sua manipulação.
+
+No primeiro caso a omplexidade do Algoritmo se aproxima a O(n), enquanto que no segundo caso por utilizar mais
+loops a complexidade fica algo em torno de O(3n), visto que utilizei 3 loops, sendo os dois primeiros para colher
+informações ao input do método e o terceiro para realizar a operação de replace requisitada.
+
+Questão 2:
+Complexidade O(n), linear, são feitas apenas comparações e possui apenas 1 loop.
+
+Questão 3:
+Por já ter feito um trabalho de faculdade com processamento de linguagem natural na disciplina Inteligência
+Artificial, tinha conhecimento da distância de Levenstein entre 2 palavras para reconhecer principalmente erros
+de digitação, então aproveitei a implementação que tinha disponível, inclusive se não me falha a memória o próprio
+Java possui uma biblioteca com a implementação desse método.
