@@ -6,6 +6,7 @@ import java.util.HashSet;
  */
 public class Node 
 {
+     //Linked list - attributtes
      int data; 
      Node next; 
   
